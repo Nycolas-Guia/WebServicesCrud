@@ -22,4 +22,4 @@ while($linha = mysqli_fetch_assoc($result)){
 	$i++;
 }
 
-echo json_encode(registros);
+echo json_encode($registros);
