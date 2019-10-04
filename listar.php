@@ -4,7 +4,7 @@ $conecta = mysqli_connect("localhost","id11034010_crudusuario","crudusuario","id
 
 $query = "SELECT * FROM tb_usuario ORDER by nm_usuario";
 
-result = mysqli_query($conecta,$query);
+$result = mysqli_query($conecta,$query);
 
 $registros = array(
 	'pessoas' => array();
