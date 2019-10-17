@@ -7,6 +7,6 @@ $senha = $_POST['senha'];
 
 $query = "insert into tb_usuario values (null,'$nome','$email','$senha')";
 
-mysql_query($conecta,$query);
+mysqli_query($conecta,$query);
 
 echo "Cadastro finalizado e realizado!";
